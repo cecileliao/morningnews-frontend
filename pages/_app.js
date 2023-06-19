@@ -30,6 +30,7 @@ function App({ Component, pageProps }) {
       <PersistGate persistor={persistor}>
         <Head>
           <title>Morning News</title>
+          <link rel="icon" type="image/png" href="/logo.png"></link>
         </Head>
         <Header />
         <Component {...pageProps} />
